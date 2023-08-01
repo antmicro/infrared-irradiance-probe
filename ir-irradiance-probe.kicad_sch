@@ -273,6 +273,72 @@
         )
       )
     )
+    (symbol "Capacitors0402:C_47p_0402" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "C" (at 20.32 -5.08 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      )
+      (property "Value" "C_47p_0402" (at 20.32 -10.16 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 20.32 -12.7 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Datasheet" " " (at 20.32 -15.24 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "MPN" "GRM1555C1E470JA01D" (at 20.32 -17.78 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Manufacturer" "Murata" (at 20.32 -20.32 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "License" "Apache-2.0" (at 20.32 -22.86 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Author" "Antmicro" (at 20.32 -25.4 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+      )
+      (property "Val" "47p" (at 20.32 -7.62 0)
+        (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
+      )
+      (property "Voltage" "" (at 20.32 -27.94 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      )
+      (property "Dielectric" "C0G" (at 20.32 -30.48 0)
+        (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+      )
+      (property "ki_description" " " (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "C_47p_0402_0_1"
+        (polyline
+          (pts
+            (xy 2.032 -1.524)
+            (xy 2.032 1.524)
+          )
+          (stroke (width 0.3048) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.048 -1.524)
+            (xy 3.048 1.524)
+          )
+          (stroke (width 0.3302) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "C_47p_0402_1_1"
+        (pin passive line (at 0 0 0) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 2.032)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Capacitors0603:C_4u7_0603" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 20.32 -5.08 0)
         (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom))
@@ -334,57 +400,6 @@
           (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at 5.08 0 180) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
@@ -2443,7 +2458,7 @@
     (stroke (width 0) (type default))
     (uuid 2925ba68-6e86-46d5-b3d0-36134fad309b)
   )
-  (wire (pts (xy 318.77 53.34) (xy 327.66 53.34))
+  (wire (pts (xy 317.5 53.34) (xy 327.66 53.34))
     (stroke (width 0) (type default))
     (uuid 2c965adb-4490-478a-a104-ca4dc42681c9)
   )
@@ -2490,6 +2505,10 @@
   (wire (pts (xy 334.01 119.38) (xy 334.01 127))
     (stroke (width 0) (type default))
     (uuid 366bb59c-c3a8-4ee7-944a-7ffedcd39933)
+  )
+  (wire (pts (xy 317.5 111.76) (xy 327.66 111.76))
+    (stroke (width 0) (type default))
+    (uuid 39c77506-d70c-486f-8ab1-9eee9d4ae3af)
   )
   (wire (pts (xy 152.4 111.76) (xy 152.4 110.49))
     (stroke (width 0) (type default))
@@ -2542,10 +2561,6 @@
   (wire (pts (xy 53.34 44.45) (xy 80.01 44.45))
     (stroke (width 0) (type default))
     (uuid 4987358e-5173-4f69-99b2-fa4386740529)
-  )
-  (wire (pts (xy 318.77 111.76) (xy 327.66 111.76))
-    (stroke (width 0) (type default))
-    (uuid 4b4c0018-6746-400a-8d0a-31dee2ebc835)
   )
   (wire (pts (xy 281.94 162.56) (xy 299.72 162.56))
     (stroke (width 0) (type default))
@@ -2688,7 +2703,7 @@
     (stroke (width 0) (type default))
     (uuid 87846b23-2b14-457d-98e0-dec7f9271591)
   )
-  (wire (pts (xy 308.61 53.34) (xy 311.15 53.34))
+  (wire (pts (xy 308.61 53.34) (xy 312.42 53.34))
     (stroke (width 0) (type default))
     (uuid 89cfbc3a-012a-4ff2-a643-66992574e425)
   )
@@ -2704,7 +2719,7 @@
     (stroke (width 0) (type default))
     (uuid 8b301540-f10c-48c1-aab5-934dd0eab058)
   )
-  (wire (pts (xy 308.61 111.76) (xy 311.15 111.76))
+  (wire (pts (xy 308.61 111.76) (xy 312.42 111.76))
     (stroke (width 0) (type default))
     (uuid 8bde909b-a2a3-425f-a388-7d1acf3c1b27)
   )
@@ -2979,16 +2994,12 @@
     (effects (font (size 4 4)) (justify left bottom))
     (uuid 153803bd-e3d5-4d42-bfa7-4dbe945ef96c)
   )
-  (text "Find 100k potentiometer\non DigiKey and replace this one"
-    (at 274.32 45.72 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 153bd46d-b0bb-4a13-b650-812bb2322cac)
-  )
   (text "BNC connector with analog buffer" (at 264.16 152.4 0)
     (effects (font (size 4 4)) (justify left bottom))
     (uuid 1ba69281-525a-4e11-9ea7-1be99275b82c)
   )
-  (text "Cf = 1/(2pi * 47k * f),\nf=100kHz => Cf = 33pF" (at 281.94 55.88 0)
+  (text "Cf = 1/(2pi * Rz * f),\nf=100kHz => Cf = 180pF\n(Rz = 47k || 10k)"
+    (at 280.67 56.515 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 31e052ed-575d-42cf-801d-a9e5d429a1e3)
   )
@@ -2999,10 +3010,6 @@
   (text "RC filter" (at 295.91 218.44 0)
     (effects (font (size 4 4)) (justify left bottom))
     (uuid 4f0b8fe8-74d0-4aa1-a2d3-b829d1848f72)
-  )
-  (text "Calculate value for \n100kHz and mark as DNP" (at 274.32 111.76 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 53fdc723-fec5-4686-a06b-66c6f0493fdc)
   )
   (text "I2C ADC" (at 175.26 104.14 0)
     (effects (font (size 4 4)) (justify left bottom))
@@ -3035,11 +3042,6 @@
   (text "QWIIC connector" (at 25.4 119.38 0)
     (effects (font (size 4 4)) (justify left bottom))
     (uuid ca15685d-c431-4f42-88b0-62255c60cdb5)
-  )
-  (text "Find 100k potentiometer\non DigiKey and replace this one"
-    (at 274.32 104.14 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid db33cb56-f392-4eb8-aa8d-31779d91e5da)
   )
   (text "Power Section" (at 34.29 22.86 0)
     (effects (font (size 6 6)) (justify left bottom))
@@ -3146,7 +3148,7 @@
   (symbol (lib_id "antmicroOperationalAmplifiers:AD8604ARUZ") (at 317.5 71.12 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05fd3557-addc-4937-8718-5dbb2f720a37)
-    (property "Reference" "U?" (at 328.93 72.39 0)
+    (property "Reference" "U2" (at 328.93 72.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "AD8604ARUZ" (at 347.98 63.5 0)
@@ -3187,7 +3189,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "U?") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -3196,7 +3198,7 @@
   (symbol (lib_id "antmicroRectangularConnectorsHeadersMalePins:PinHeader_1x2_P2.54mm_Drill1.1mm") (at 52.07 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07ed41a9-7c56-444c-9a06-736a9ce8f5be)
-    (property "Reference" "J3" (at 48.26 90.932 0)
+    (property "Reference" "J1" (at 48.26 90.932 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "PinHeader_1x2_P2.54mm_Drill1.1mm" (at 48.26 93.472 0)
@@ -3225,7 +3227,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "J3") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -3234,7 +3236,7 @@
   (symbol (lib_id "antmicropower:GND") (at 67.31 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0bcaba58-06e9-4d3c-bf97-f8d5627e844c)
-    (property "Reference" "#PWR?" (at 76.2 240.03 0)
+    (property "Reference" "#PWR09" (at 76.2 240.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 67.31 242.57 0)
@@ -3256,7 +3258,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3265,7 +3267,7 @@
   (symbol (lib_id "antmicropower:GND") (at 314.96 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c536a9a-9d7b-484b-84e7-76d7c0afcf6b)
-    (property "Reference" "#PWR?" (at 323.85 80.01 0)
+    (property "Reference" "#PWR027" (at 323.85 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 314.96 82.55 0)
@@ -3287,7 +3289,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3296,7 +3298,7 @@
   (symbol (lib_id "antmicropower:GND") (at 53.34 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 106f9578-fea0-4cbb-aa1f-9d8d5ce0b616)
-    (property "Reference" "#PWR?" (at 62.23 104.14 0)
+    (property "Reference" "#PWR02" (at 62.23 104.14 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 53.34 106.68 0)
@@ -3318,7 +3320,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3327,7 +3329,7 @@
   (symbol (lib_id "antmicroOpticalSensorsReflectiveAnalogOutput:TEMD5020X01") (at 308.61 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 11865aa2-358e-40ea-a37f-9dbe26ee5368)
-    (property "Reference" "D?" (at 300.99 134.62 90)
+    (property "Reference" "D8" (at 300.99 134.62 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "TEMD5020X01" (at 303.53 130.81 90)
@@ -3356,7 +3358,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "D?") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -3365,7 +3367,7 @@
   (symbol (lib_id "antmicropower:GND") (at 307.34 233.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1322b2aa-ac10-4d00-b4a3-10a4be5b74ef)
-    (property "Reference" "#PWR?" (at 316.23 236.22 0)
+    (property "Reference" "#PWR024" (at 316.23 236.22 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 307.34 238.76 0)
@@ -3387,7 +3389,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -3396,7 +3398,7 @@
   (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_2.5_6.2") (at 229.87 266.7 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16ada956-b65b-47d1-acd6-5640026a7ab6)
-    (property "Reference" "MP2" (at 235.204 265.4299 0)
+    (property "Reference" "MP1" (at 235.204 265.4299 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PCB_Mount_Hole_2.5_6.2" (at 235.204 267.9699 0)
@@ -3426,7 +3428,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "MP2") (unit 1)
+          (reference "MP1") (unit 1)
         )
       )
     )
@@ -3435,7 +3437,7 @@
   (symbol (lib_id "Capacitors0402:C_1n5_0402") (at 307.34 233.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1898ae6a-b56d-4d29-9f2b-03b47ca42ee5)
-    (property "Reference" "C?" (at 309.88 229.8636 90)
+    (property "Reference" "C9" (at 309.88 229.8636 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_1n5_0402" (at 317.5 213.36 0)
@@ -3473,7 +3475,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "C?") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3482,7 +3484,7 @@
   (symbol (lib_id "Capacitors0603:C_4u7_0603") (at 163.83 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a74d04f-870a-47be-89df-55f7f490f294)
-    (property "Reference" "C3" (at 166.37 114.2936 90)
+    (property "Reference" "C7" (at 166.37 114.2936 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_4u7_0603" (at 173.99 97.79 0)
@@ -3520,7 +3522,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "C3") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3529,7 +3531,7 @@
   (symbol (lib_id "antmicroRectangularConnectorsHeadersMalePins:SM04B-SRSS-TB-LF-SN") (at 54.61 130.81 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2343d1d3-1372-442b-9d57-32055e934a89)
-    (property "Reference" "J2" (at 48.26 123.19 0)
+    (property "Reference" "J3" (at 48.26 123.19 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "SM04B-SRSS-TB-LF-SN" (at 48.26 125.73 0)
@@ -3562,7 +3564,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "J2") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -3571,7 +3573,7 @@
   (symbol (lib_id "antmicroOpticalSensorsReflectiveAnalogOutput:TEMD5020X01") (at 308.61 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24f3b8f6-7036-4551-8748-c0c369b0cba0)
-    (property "Reference" "D?" (at 300.99 76.2 90)
+    (property "Reference" "D7" (at 300.99 76.2 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "TEMD5020X01" (at 303.53 72.39 90)
@@ -3600,7 +3602,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "D?") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -3609,7 +3611,7 @@
   (symbol (lib_id "antmicropower:GND") (at 176.53 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b984480-45c0-4b4d-bc0c-9d4cf6baf8a2)
-    (property "Reference" "#PWR?" (at 185.42 137.16 0)
+    (property "Reference" "#PWR020" (at 185.42 137.16 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 176.53 139.7 0)
@@ -3631,7 +3633,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3640,7 +3642,7 @@
   (symbol (lib_id "Capacitors0402:C_100n_0402") (at 139.7 238.76 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bf1e1f9-ba06-41f8-80f3-2f4659489cf2)
-    (property "Reference" "C4" (at 137.16 234.9436 90)
+    (property "Reference" "C5" (at 137.16 234.9436 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_100n_0402" (at 129.54 218.44 0)
@@ -3678,7 +3680,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3687,7 +3689,7 @@
   (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_2.5_6.2") (at 266.7 278.13 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ecf658e-911b-4d50-ad7f-7c0108d7bae0)
-    (property "Reference" "MP3" (at 272.034 276.8599 0)
+    (property "Reference" "MP4" (at 272.034 276.8599 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PCB_Mount_Hole_2.5_6.2" (at 272.034 279.3999 0)
@@ -3717,16 +3719,16 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "MP3") (unit 1)
+          (reference "MP4") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 312.42 46.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f505d08-3569-4442-8266-d0a1ea1494b2)
-    (property "Reference" "R?" (at 314.96 40.64 0)
+    (property "Reference" "R8" (at 314.96 41.91 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_10k_0402" (at 332.74 59.69 0)
@@ -3750,7 +3752,7 @@
     (property "Author" "Antmicro" (at 332.74 74.93 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "10k" (at 314.96 43.18 0)
+    (property "Val" "10k" (at 314.96 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Tolerance" "1%" (at 332.74 57.15 0)
@@ -3761,33 +3763,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "R?") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 314.96 111.76 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 32498c96-6c40-4367-87f1-77e4c02f4ad0)
-    (property "Reference" "C?" (at 317.5 109.22 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "C" (at 312.42 109.22 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 318.77 110.7948 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 314.96 111.76 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b5a66158-fa88-4020-8066-1e863da8a685))
-    (pin "2" (uuid b38e9a0e-5741-4b2f-a22e-6c1f617b151d))
-    (instances
-      (project "ir-irradiance-probe"
-        (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "C?") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3796,7 +3772,7 @@
   (symbol (lib_id "antmicropower:GND") (at 308.61 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 370fc143-f39d-4338-9f1c-124a140fe481)
-    (property "Reference" "#PWR?" (at 317.5 138.43 0)
+    (property "Reference" "#PWR026" (at 317.5 138.43 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 308.61 140.97 0)
@@ -3818,7 +3794,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3827,7 +3803,7 @@
   (symbol (lib_id "antmicropower:GND") (at 62.23 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a7e0ed2-691c-4537-9e6e-0a3ad4c14f73)
-    (property "Reference" "#PWR?" (at 71.12 240.03 0)
+    (property "Reference" "#PWR07" (at 71.12 240.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 62.23 242.57 0)
@@ -3849,7 +3825,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -3858,7 +3834,7 @@
   (symbol (lib_id "antmicroResistors0402:R_1k_0402") (at 299.72 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f816a42-3d62-4945-98a7-5b534b65f4c4)
-    (property "Reference" "R?" (at 302.26 220.98 0)
+    (property "Reference" "R7" (at 302.26 220.98 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_1k_0402" (at 320.04 240.03 0)
@@ -3893,7 +3869,57 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "R?") (unit 1)
+          (reference "R7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Capacitors0402:C_47p_0402") (at 312.42 111.76 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 41ad0024-d24c-4ff4-8f36-409ff2662d7b)
+    (property "Reference" "C11" (at 311.785 109.855 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (property "Value" "C_47p_0402" (at 332.74 121.92 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 332.74 124.46 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" " " (at 332.74 127 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "GRM1555C1E470JA01D" (at 332.74 129.54 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "Murata" (at 332.74 132.08 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 332.74 134.62 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 332.74 137.16 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Val" "47p" (at 318.135 109.855 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (property "Voltage" "" (at 332.74 139.7 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Dielectric" "C0G" (at 332.74 142.24 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DNP" "DNP" (at 318.135 113.665 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid bf241271-a63b-47f5-a0d8-6e8eb5c46cd9))
+    (pin "2" (uuid 5bee0b71-f58d-45d4-8b49-93b56f932087))
+    (instances
+      (project "ir-irradiance-probe"
+        (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3902,7 +3928,7 @@
   (symbol (lib_id "antmicroOperationalAmplifiers:AD8604ARUZ") (at 299.72 162.56 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42f12e1f-56b6-4c4c-90fe-8f1f926dd890)
-    (property "Reference" "U?" (at 307.34 154.94 0)
+    (property "Reference" "U2" (at 307.34 154.94 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "AD8604ARUZ" (at 330.2 170.18 0)
@@ -3943,7 +3969,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "U?") (unit 2)
+          (reference "U2") (unit 2)
         )
       )
     )
@@ -3952,7 +3978,7 @@
   (symbol (lib_id "antmicropower:GND") (at 71.12 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 475a59c9-576e-4a83-8202-7926825b652a)
-    (property "Reference" "#PWR07" (at 80.01 52.07 0)
+    (property "Reference" "#PWR010" (at 80.01 52.07 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 71.12 54.61 0)
@@ -3974,16 +4000,16 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "antmicroResistors0402:R_10k_0402") (at 312.42 105.41 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 4893ab12-4024-48e7-817c-9e4ffd8bf10c)
-    (property "Reference" "R?" (at 314.96 99.06 0)
+    (property "Reference" "R10" (at 314.96 100.33 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_10k_0402" (at 332.74 118.11 0)
@@ -4007,7 +4033,7 @@
     (property "Author" "Antmicro" (at 332.74 133.35 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "Val" "10k" (at 314.96 101.6 0)
+    (property "Val" "10k" (at 314.96 102.87 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Tolerance" "1%" (at 332.74 115.57 0)
@@ -4018,7 +4044,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "R?") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -4027,7 +4053,7 @@
   (symbol (lib_id "antmicropower:GND") (at 57.15 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a69f1c7-38fd-4a89-99ad-dee2cc1b4b99)
-    (property "Reference" "#PWR?" (at 66.04 147.32 0)
+    (property "Reference" "#PWR04" (at 66.04 147.32 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 57.15 149.86 0)
@@ -4049,7 +4075,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4058,7 +4084,7 @@
   (symbol (lib_id "Capacitors0402:C_1u_0402") (at 58.42 185.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ba21e56-6f65-496a-9eb8-358ba1865d3c)
-    (property "Reference" "C5" (at 60.96 181.6036 90)
+    (property "Reference" "C2" (at 60.96 181.6036 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_1u_0402" (at 68.58 165.1 0)
@@ -4096,7 +4122,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "C5") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -4105,7 +4131,7 @@
   (symbol (lib_id "antmicropower:GND") (at 60.96 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5333d497-a8b6-4126-b33c-6986e8fcba2f)
-    (property "Reference" "#PWR?" (at 69.85 72.39 0)
+    (property "Reference" "#PWR06" (at 69.85 72.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 60.96 74.93 0)
@@ -4127,7 +4153,57 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Capacitors0402:C_47p_0402") (at 312.42 53.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 564b5294-8dd0-43ec-a080-ee02c16b780f)
+    (property "Reference" "C10" (at 311.785 51.435 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (property "Value" "C_47p_0402" (at 332.74 63.5 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Footprint" "antmicro-footprints:C_0402_1005Metric" (at 332.74 66.04 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Datasheet" " " (at 332.74 68.58 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "MPN" "GRM1555C1E470JA01D" (at 332.74 71.12 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Manufacturer" "Murata" (at 332.74 73.66 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "License" "Apache-2.0" (at 332.74 76.2 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Author" "Antmicro" (at 332.74 78.74 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
+    )
+    (property "Val" "47p" (at 318.135 51.435 0)
+      (effects (font (size 1.27 1.27) (thickness 0.15)))
+    )
+    (property "Voltage" "" (at 332.74 81.28 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "Dielectric" "C0G" (at 332.74 83.82 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom) hide)
+    )
+    (property "DNP" "DNP" (at 318.135 55.245 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid cbb32fb8-c311-4f88-880a-6c2cd3142848))
+    (pin "2" (uuid 91f03f51-c4c3-4a17-aebb-09f1174f4d8c))
+    (instances
+      (project "ir-irradiance-probe"
+        (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4136,7 +4212,7 @@
   (symbol (lib_id "antmicropower:GND") (at 308.61 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 578f3b1d-3e21-43ca-b0bf-6cce9f2a5ff3)
-    (property "Reference" "#PWR?" (at 317.5 80.01 0)
+    (property "Reference" "#PWR025" (at 317.5 80.01 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 308.61 82.55 0)
@@ -4158,7 +4234,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -4167,7 +4243,7 @@
   (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_2.5_6.2") (at 229.87 278.13 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59637454-b29b-4acf-b96b-871dd924c11c)
-    (property "Reference" "MP4" (at 235.204 276.8599 0)
+    (property "Reference" "MP2" (at 235.204 276.8599 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PCB_Mount_Hole_2.5_6.2" (at 235.204 279.3999 0)
@@ -4197,7 +4273,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "MP4") (unit 1)
+          (reference "MP2") (unit 1)
         )
       )
     )
@@ -4206,7 +4282,7 @@
   (symbol (lib_id "Resistors0402:R_22R_0402") (at 157.48 128.27 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c343f53-32ca-4d82-ba74-e0f26584ce4f)
-    (property "Reference" "R1" (at 160.02 134.62 0)
+    (property "Reference" "R3" (at 160.02 134.62 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_22R_0402" (at 177.8 115.57 0)
@@ -4241,7 +4317,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "R1") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -4250,7 +4326,7 @@
   (symbol (lib_id "antmicroOperationalAmplifiers:AD8604ARUZ") (at 147.32 232.41 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66c47bf1-a4d3-48f8-bba5-b9e63df40804)
-    (property "Reference" "U?" (at 156.21 232.4099 0)
+    (property "Reference" "U2" (at 156.21 232.4099 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "AD8604ARUZ" (at 177.8 240.03 0)
@@ -4291,7 +4367,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "U?") (unit 5)
+          (reference "U2") (unit 5)
         )
       )
     )
@@ -4300,7 +4376,7 @@
   (symbol (lib_id "Capacitors0402:C_1u_0402") (at 72.39 185.42 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6c9394e8-ed52-4119-bfcc-84a983113a5f)
-    (property "Reference" "C6" (at 69.85 181.6036 90)
+    (property "Reference" "C4" (at 69.85 181.6036 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_1u_0402" (at 62.23 165.1 0)
@@ -4338,7 +4414,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "C6") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -4347,7 +4423,7 @@
   (symbol (lib_id "antmicroDataAcquisitionAnalogtoDigitalConvertersADC:ADC101C027CIMK") (at 177.8 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d7be4ca-61df-4f38-8cf1-faca740ef6c4)
-    (property "Reference" "U?" (at 187.96 115.57 0)
+    (property "Reference" "U3" (at 187.96 115.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "ADC101C027CIMK" (at 213.36 130.81 0)
@@ -4380,7 +4456,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "U?") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -4389,7 +4465,7 @@
   (symbol (lib_id "antmicroResistors0402:R_47k_0402") (at 312.42 119.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 708dc43e-d764-484e-8ab7-2635d64a1f78)
-    (property "Reference" "R?" (at 312.42 116.84 0)
+    (property "Reference" "R11" (at 312.42 116.84 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_47k_0402" (at 332.74 132.08 0)
@@ -4424,7 +4500,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "R?") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -4433,7 +4509,7 @@
   (symbol (lib_id "antmicropower:GND") (at 171.45 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7148ba41-a7ee-4459-b339-8f877b5d159e)
-    (property "Reference" "#PWR01" (at 180.34 137.16 0)
+    (property "Reference" "#PWR019" (at 180.34 137.16 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 171.45 139.7 0)
@@ -4455,7 +4531,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4464,7 +4540,7 @@
   (symbol (lib_id "antmicropower:GND") (at 66.04 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72ae3325-f0b8-4f69-a42f-aa267f11b140)
-    (property "Reference" "#PWR?" (at 74.93 72.39 0)
+    (property "Reference" "#PWR08" (at 74.93 72.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 66.04 74.93 0)
@@ -4486,7 +4562,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -4495,7 +4571,7 @@
   (symbol (lib_id "antmicroDiodesRectifiersSingle:RB521S30T1G") (at 48.26 217.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 738899d5-9232-4c0b-a2c6-fcc8eb8ba02d)
-    (property "Reference" "D?" (at 52.324 210.82 0)
+    (property "Reference" "D3" (at 52.324 210.82 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "RB521S30T1G" (at 52.324 213.36 0)
@@ -4524,7 +4600,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "D?") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -4533,7 +4609,7 @@
   (symbol (lib_id "antmicropower:GND") (at 163.83 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73da0dc4-3091-406a-8407-a78f38d5a68a)
-    (property "Reference" "#PWR02" (at 172.72 120.65 0)
+    (property "Reference" "#PWR018" (at 172.72 120.65 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 163.83 123.19 0)
@@ -4555,7 +4631,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4564,7 +4640,7 @@
   (symbol (lib_id "Capacitors0402:C_100n_0402") (at 158.75 118.11 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76376c23-772f-4a13-b922-fdd97ea6766d)
-    (property "Reference" "C2" (at 156.21 114.2936 90)
+    (property "Reference" "C6" (at 156.21 114.2936 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_100n_0402" (at 148.59 97.79 0)
@@ -4602,7 +4678,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "C2") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -4611,7 +4687,7 @@
   (symbol (lib_id "antmicropower:GND") (at 139.7 238.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76ab58ee-24cb-4c2c-b253-b0626ec55ea0)
-    (property "Reference" "#PWR08" (at 148.59 241.3 0)
+    (property "Reference" "#PWR014" (at 148.59 241.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 139.7 243.84 0)
@@ -4633,7 +4709,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -4642,7 +4718,7 @@
   (symbol (lib_id "antmicropower:GND") (at 158.75 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7969c94c-1a84-4242-8735-b9cadbf478a9)
-    (property "Reference" "#PWR03" (at 167.64 120.65 0)
+    (property "Reference" "#PWR017" (at 167.64 120.65 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 158.75 123.19 0)
@@ -4664,7 +4740,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -4673,7 +4749,7 @@
   (symbol (lib_id "antmicropower:GND") (at 72.39 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79ece75b-00c8-4dda-bebb-048ea073abd5)
-    (property "Reference" "#PWR?" (at 81.28 187.96 0)
+    (property "Reference" "#PWR011" (at 81.28 187.96 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 72.39 190.5 0)
@@ -4695,7 +4771,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -4704,7 +4780,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_1u_0402") (at 67.31 237.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7cb7069c-fedc-4bdc-9e4d-e07b368b93ad)
-    (property "Reference" "C?" (at 69.85 233.6735 90)
+    (property "Reference" "C3" (at 69.85 233.6735 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_1u_0402" (at 77.47 217.17 0)
@@ -4742,7 +4818,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "C?") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -4751,7 +4827,7 @@
   (symbol (lib_id "antmicropower:GND") (at 325.12 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e265ab6-a3f6-40f5-a4a7-149e3b9d01e9)
-    (property "Reference" "#PWR?" (at 334.01 172.72 0)
+    (property "Reference" "#PWR029" (at 334.01 172.72 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 325.12 175.26 0)
@@ -4773,7 +4849,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -4782,7 +4858,7 @@
   (symbol (lib_id "antmicropower:GND") (at 199.39 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ff992f9-81d9-4292-95a3-59df0dbc13e1)
-    (property "Reference" "#PWR06" (at 208.28 142.24 0)
+    (property "Reference" "#PWR021" (at 208.28 142.24 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 199.39 144.78 0)
@@ -4804,7 +4880,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -4813,7 +4889,7 @@
   (symbol (lib_id "antmicroRotaryPotentiometersRheostats:POT_20k_R0141-2-20k") (at 325.12 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 847f3a7b-37f1-40e3-931b-63f5ddebaefe)
-    (property "Reference" "POT?" (at 327.66 40.64 0)
+    (property "Reference" "POT1" (at 327.66 41.91 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "POT_20k_R0141-2-20k" (at 345.44 52.07 0)
@@ -4825,7 +4901,7 @@
     (property "Datasheet" "https://www.tme.eu/Document/48eb4fb11c5e0c9b1cd467745dfbcb98/R0141-2.pdf" (at 345.44 57.15 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "R0141-2-20k" (at 327.66 43.18 0)
+    (property "MPN" "R0141-2-20k" (at 327.66 44.45 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Manufacturer" "SR PASSIVES" (at 345.44 62.23 0)
@@ -4843,7 +4919,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "POT?") (unit 1)
+          (reference "POT1") (unit 1)
         )
       )
     )
@@ -4852,7 +4928,7 @@
   (symbol (lib_id "antmicroOperationalAmplifiers:AD8604ARUZ") (at 317.5 129.54 0) (mirror x) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85dedae9-3fed-4ec6-91a5-975f8e45c60f)
-    (property "Reference" "U?" (at 328.93 130.81 0)
+    (property "Reference" "U2" (at 328.93 130.81 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "AD8604ARUZ" (at 347.98 121.92 0)
@@ -4893,7 +4969,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "U?") (unit 3)
+          (reference "U2") (unit 3)
         )
       )
     )
@@ -4902,7 +4978,7 @@
   (symbol (lib_id "antmicroDiodesRectifiersSingle:RB521S30T1G") (at 40.64 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 898eac80-643b-4b2b-a2b5-f04a33bd85b6)
-    (property "Reference" "D?" (at 44.704 172.72 0)
+    (property "Reference" "D1" (at 44.704 172.72 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "RB521S30T1G" (at 44.704 175.26 0)
@@ -4931,7 +5007,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "D?") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -4978,7 +5054,7 @@
   (symbol (lib_id "Capacitors0402:C_470p_0402") (at 171.45 134.62 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a556b6b-68f4-496d-80af-f758ee94a231)
-    (property "Reference" "C1" (at 168.91 130.8036 90)
+    (property "Reference" "C8" (at 168.91 130.8036 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_470p_0402" (at 161.29 114.3 0)
@@ -5016,7 +5092,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "C1") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -5025,7 +5101,7 @@
   (symbol (lib_id "antmicroResistors0402:R_5k1_0402") (at 60.96 58.42 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ad82302-92cc-48a5-b4a2-273ae9e1f68a)
-    (property "Reference" "R?" (at 58.42 62.2301 90)
+    (property "Reference" "R1" (at 58.42 62.2301 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "R_5k1_0402" (at 73.66 78.74 0)
@@ -5060,7 +5136,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "R?") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -5069,7 +5145,7 @@
   (symbol (lib_id "Graphic:Logo_Open_Hardware_Small") (at 63.246 273.812 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cb57420-015e-41e0-97a7-0100d9a2312e)
-    (property "Reference" "#LOGO?" (at 63.246 266.827 0)
+    (property "Reference" "#LOGO1" (at 63.246 266.827 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Logo_Open_Hardware_Small" (at 63.246 279.527 0)
@@ -5084,7 +5160,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#LOGO?") (unit 1)
+          (reference "#LOGO1") (unit 1)
         )
       )
     )
@@ -5093,7 +5169,7 @@
   (symbol (lib_id "Resistors0402:R_5k1_0402") (at 212.09 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93ef329e-f685-4f75-8254-246438b32ee3)
-    (property "Reference" "R2" (at 214.63 115.57 90)
+    (property "Reference" "R6" (at 214.63 115.57 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_5k1_0402" (at 224.79 99.06 0)
@@ -5128,7 +5204,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "R2") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -5137,7 +5213,7 @@
   (symbol (lib_id "antmicropower:GND") (at 314.96 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9be3186a-9cb4-45f9-8eec-8473e427366f)
-    (property "Reference" "#PWR?" (at 323.85 138.43 0)
+    (property "Reference" "#PWR028" (at 323.85 138.43 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 314.96 140.97 0)
@@ -5159,7 +5235,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -5168,7 +5244,7 @@
   (symbol (lib_id "antmicropower:GND") (at 54.61 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a547a953-260f-42fd-a06d-08d160f72982)
-    (property "Reference" "#PWR?" (at 63.5 72.39 0)
+    (property "Reference" "#PWR03" (at 63.5 72.39 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 54.61 74.93 0)
@@ -5190,7 +5266,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -5199,7 +5275,7 @@
   (symbol (lib_id "antmicroRotaryPotentiometersRheostats:POT_20k_R0141-2-20k") (at 325.12 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af17ec6b-46dc-40af-91f6-0349633473b2)
-    (property "Reference" "POT?" (at 327.66 99.06 0)
+    (property "Reference" "POT2" (at 327.66 100.33 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "POT_20k_R0141-2-20k" (at 345.44 110.49 0)
@@ -5211,7 +5287,7 @@
     (property "Datasheet" "https://www.tme.eu/Document/48eb4fb11c5e0c9b1cd467745dfbcb98/R0141-2.pdf" (at 345.44 115.57 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
-    (property "MPN" "R0141-2-20k" (at 327.66 101.6 0)
+    (property "MPN" "R0141-2-20k" (at 327.66 102.87 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Manufacturer" "SR PASSIVES" (at 345.44 120.65 0)
@@ -5229,7 +5305,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "POT?") (unit 1)
+          (reference "POT2") (unit 1)
         )
       )
     )
@@ -5238,7 +5314,7 @@
   (symbol (lib_id "antmicropower:+3.3VA") (at 135.89 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b215b085-0fb9-4e9e-b10a-7d53809339ed)
-    (property "Reference" "#PWR?" (at 135.89 234.95 0)
+    (property "Reference" "#PWR013" (at 135.89 234.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 135.89 226.06 0)
@@ -5254,7 +5330,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -5263,7 +5339,7 @@
   (symbol (lib_id "antmicropower:GND") (at 39.37 237.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2919dd3-c63f-4583-866b-899dad0ab6b3)
-    (property "Reference" "#PWR?" (at 48.26 240.03 0)
+    (property "Reference" "#PWR01" (at 48.26 240.03 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 39.37 242.57 0)
@@ -5285,7 +5361,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -5294,7 +5370,7 @@
   (symbol (lib_id "antmicroUSBDVIHDMIConnectors:USB-C_UJC-HP-3-SMT-TR") (at 53.34 44.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7aef2d3-216a-42aa-a19f-639fbaee2c8e)
-    (property "Reference" "J?" (at 43.18 36.83 0)
+    (property "Reference" "J2" (at 43.18 36.83 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "USB-C_UJC-HP-3-SMT-TR" (at 22.86 52.07 0)
@@ -5328,7 +5404,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "J?") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -5381,7 +5457,7 @@
   (symbol (lib_id "antmicropower:GND") (at 146.05 238.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf6a7d5f-2953-49c2-8730-4413a548d531)
-    (property "Reference" "#PWR?" (at 154.94 241.3 0)
+    (property "Reference" "#PWR015" (at 154.94 241.3 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 146.05 243.84 0)
@@ -5403,7 +5479,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5412,7 +5488,7 @@
   (symbol (lib_id "antmicropower:+3.3VA") (at 203.2 114.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c13ec8c1-069a-40a7-8081-bba52bdd66d5)
-    (property "Reference" "#PWR04" (at 203.2 118.11 0)
+    (property "Reference" "#PWR022" (at 203.2 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 203.2 109.22 0)
@@ -5428,7 +5504,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5437,7 +5513,7 @@
   (symbol (lib_id "antmicroResistors0402:R_5k1_0402") (at 66.04 63.5 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3ef6e4e-c605-463e-8622-5f5996d84e88)
-    (property "Reference" "R?" (at 68.58 59.6899 90)
+    (property "Reference" "R2" (at 68.58 59.6899 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_5k1_0402" (at 78.74 43.18 0)
@@ -5472,7 +5548,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "R?") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -5481,7 +5557,7 @@
   (symbol (lib_id "antmicroOperationalAmplifiers:AD8604ARUZ") (at 304.8 195.58 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb9a6e16-d4d4-4ece-99c4-235ef70f7c7f)
-    (property "Reference" "U?" (at 312.42 187.96 0)
+    (property "Reference" "U2" (at 312.42 187.96 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "AD8604ARUZ" (at 335.28 203.2 0)
@@ -5522,7 +5598,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "U?") (unit 4)
+          (reference "U2") (unit 4)
         )
       )
     )
@@ -5531,7 +5607,7 @@
   (symbol (lib_id "antmicroMechanicalParts:antmicro_logo") (at 29.21 273.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc5ef039-a649-492d-be60-97b36b791ae8)
-    (property "Reference" "N?" (at 35.306 270.7575 0)
+    (property "Reference" "N1" (at 35.306 270.7575 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "antmicro_logo" (at 35.306 273.2975 0)
@@ -5558,7 +5634,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "N?") (unit 1)
+          (reference "N1") (unit 1)
         )
       )
     )
@@ -5567,7 +5643,7 @@
   (symbol (lib_id "antmicropower:GND") (at 58.42 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ced7a29e-68fe-4d67-a568-d168d1de96c6)
-    (property "Reference" "#PWR?" (at 67.31 187.96 0)
+    (property "Reference" "#PWR05" (at 67.31 187.96 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left bottom) hide)
     )
     (property "Value" "GND" (at 58.42 190.5 0)
@@ -5589,7 +5665,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -5598,7 +5674,7 @@
   (symbol (lib_id "antmicroResistors0402:R_47k_0402") (at 312.42 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0b8cccb-6b58-480d-9739-c61180fb8384)
-    (property "Reference" "R?" (at 312.42 58.42 0)
+    (property "Reference" "R9" (at 312.42 58.42 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "R_47k_0402" (at 332.74 73.66 0)
@@ -5633,7 +5709,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "R?") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -5642,7 +5718,7 @@
   (symbol (lib_id "antmicropower:+3.3VA") (at 78.74 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d517e054-f19a-4ba0-918d-615ce7ab0ff0)
-    (property "Reference" "#PWR?" (at 78.74 219.71 0)
+    (property "Reference" "#PWR012" (at 78.74 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 78.74 210.82 0)
@@ -5658,7 +5734,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -5667,7 +5743,7 @@
   (symbol (lib_id "antmicroSlideSwitches:MSS3-V-T_R") (at 247.65 227.33 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d54f063d-2bb7-4998-a4ae-e42d90740fa7)
-    (property "Reference" "SW?" (at 247.4468 219.71 0)
+    (property "Reference" "SW1" (at 247.4468 219.71 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MSS3-V-T_R" (at 247.4468 222.25 0)
@@ -5691,7 +5767,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "SW?") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -5700,7 +5776,7 @@
   (symbol (lib_id "antmicroCoaxialConnectorsRF:Conn_BNC_031-70526-21") (at 320.04 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da101ba8-f32b-42f1-9b7e-896398dee46d)
-    (property "Reference" "J?" (at 328.93 164.1866 0)
+    (property "Reference" "J4" (at 328.93 164.1866 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "Conn_BNC_031-70526-21" (at 328.93 166.7266 0)
@@ -5729,7 +5805,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "J?") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -5738,7 +5814,7 @@
   (symbol (lib_id "antmicroDiodesRectifiersSingle:RB521S30T1G") (at 40.64 190.5 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc172918-686c-4f92-9ea2-083c5ffaf5ee)
-    (property "Reference" "D?" (at 44.704 196.85 0)
+    (property "Reference" "D2" (at 44.704 196.85 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "RB521S30T1G" (at 44.704 194.31 0)
@@ -5767,7 +5843,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "D?") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -5776,7 +5852,7 @@
   (symbol (lib_id "antmicroCapacitors0402:C_1u_0402") (at 39.37 237.49 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dccfb2fb-4172-45d6-ab9f-2cd17a4b9b9d)
-    (property "Reference" "C?" (at 36.83 233.6735 90)
+    (property "Reference" "C1" (at 36.83 233.6735 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "C_1u_0402" (at 29.21 217.17 0)
@@ -5814,7 +5890,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "C?") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -5823,7 +5899,7 @@
   (symbol (lib_id "antmicropower:+3.3VA") (at 212.09 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de64b1ab-cb56-4483-8571-5b23640cbea4)
-    (property "Reference" "#PWR05" (at 212.09 118.11 0)
+    (property "Reference" "#PWR023" (at 212.09 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 212.09 109.22 0)
@@ -5839,33 +5915,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 314.96 53.34 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e1e73e3f-5c08-4a8e-8a0f-e5ad9910ae44)
-    (property "Reference" "C?" (at 317.5 50.8 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "C" (at 312.42 50.8 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 318.77 52.3748 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 314.96 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 627a3da3-3971-4d46-bcc9-f14c6cf29b39))
-    (pin "2" (uuid c699185f-1712-4c23-9d33-1263170eb05c))
-    (instances
-      (project "ir-irradiance-probe"
-        (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "C?") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5874,7 +5924,7 @@
   (symbol (lib_id "antmicroDiodesRectifiersSingle:RB521S30T1G") (at 78.74 227.33 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4f798fd-81d0-42d5-b783-1d2d02c410d2)
-    (property "Reference" "D?" (at 81.28 221.9959 90)
+    (property "Reference" "D5" (at 81.28 221.9959 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "RB521S30T1G" (at 81.28 224.5359 90)
@@ -5903,7 +5953,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "D?") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -5912,7 +5962,7 @@
   (symbol (lib_id "TVSDiodes:PESD5V0S2BQA") (at 72.39 147.32 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebf160ad-5439-4f83-941a-9ff6b4adc87d)
-    (property "Reference" "D1" (at 76.2 149.86 90)
+    (property "Reference" "D4" (at 76.2 149.86 90)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "PESD5V0S2BQA" (at 57.15 139.7 90)
@@ -5936,7 +5986,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "D1") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -5945,7 +5995,7 @@
   (symbol (lib_id "antmicropower:+3.3VA") (at 152.4 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f14da396-c53c-4c04-998b-1eb4a150007e)
-    (property "Reference" "#PWR?" (at 152.4 114.3 0)
+    (property "Reference" "#PWR016" (at 152.4 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 152.4 105.41 0)
@@ -5961,7 +6011,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -5970,7 +6020,7 @@
   (symbol (lib_id "Resistors0402:R_5k1_0402") (at 203.2 119.38 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f29b80e2-a37e-4adc-a9a0-f12af6e10ba1)
-    (property "Reference" "R3" (at 205.74 115.57 90)
+    (property "Reference" "R5" (at 205.74 115.57 90)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right))
     )
     (property "Value" "R_5k1_0402" (at 215.9 99.06 0)
@@ -6005,7 +6055,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "R3") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -6014,7 +6064,7 @@
   (symbol (lib_id "antmicroPMICVoltageRegulatorsLinear:TLV70033_SC70") (at 45.72 231.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f986eaf3-77cb-44c2-8a64-27771da2021c)
-    (property "Reference" "U?" (at 53.34 223.52 0)
+    (property "Reference" "U1" (at 53.34 223.52 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)))
     )
     (property "Value" "TLV70033_SC70" (at 81.28 236.22 0)
@@ -6046,7 +6096,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "U?") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -6055,7 +6105,7 @@
   (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_2.5_6.2") (at 266.7 266.7 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb71e0a2-dca8-443c-8ef3-c07680ba5783)
-    (property "Reference" "MP1" (at 272.034 265.4299 0)
+    (property "Reference" "MP3" (at 272.034 265.4299 0)
       (effects (font (size 1.27 1.27) (thickness 0.15)) (justify left))
     )
     (property "Value" "PCB_Mount_Hole_2.5_6.2" (at 272.034 267.9699 0)
@@ -6085,7 +6135,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "MP1") (unit 1)
+          (reference "MP3") (unit 1)
         )
       )
     )
@@ -6094,7 +6144,7 @@
   (symbol (lib_id "TVSDiodes:PESD5V0S2BQA") (at 82.55 52.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff775ea2-08d3-4659-9e0a-8ea32eaf551b)
-    (property "Reference" "D2" (at 86.36 54.61 90)
+    (property "Reference" "D6" (at 86.36 54.61 90)
       (effects (font (size 1.524 1.524)) (justify left))
     )
     (property "Value" "PESD5V0S2BQA" (at 67.31 44.45 90)
@@ -6118,7 +6168,7 @@
     (instances
       (project "ir-irradiance-probe"
         (path "/97d94a71-0b57-4bb1-ae37-779338f5fb57"
-          (reference "D2") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
