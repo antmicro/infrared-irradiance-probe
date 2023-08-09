@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ir-irradiance-probe-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/ir-irradiance-probe-footprints")(options "")(descr ""))
+)
