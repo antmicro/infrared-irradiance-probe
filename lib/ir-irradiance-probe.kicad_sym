@@ -701,135 +701,6 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
-    (symbol "PinHeader_1x2_P2.54mm_Drill1.1mm" 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "J" 
-            (id 0) 
-            (at 20.32 -5.08 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
-        (property "Value" "PinHeader_1x2_P2.54mm_Drill1.1mm" 
-            (id 1) 
-            (at 20.32 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
-        (property "Footprint" "ir-irradiance-probe-footprints:PinHeader_1x2_P2.54_Drill0.9mm" 
-            (id 2) 
-            (at 20.32 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Datasheet" "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" 
-            (id 3) 
-            (at 20.32 -12.7 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "MPN" "61300211121" 
-            (id 4) 
-            (at 20.32 -15.24 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Manufacturer" "Würth Elektronik" 
-            (id 5) 
-            (at 20.32 -17.78 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Author" "Antmicro" 
-            (id 6) 
-            (at 20.32 -20.32 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "License" "Apache-2.0" 
-            (id 7) 
-            (at 20.32 -22.86 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "ki_keywords" "2x1 goldpin header" 
-            (id 8) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "ki_description" "2x1 goldpin header" 
-            (id 9) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "PinHeader_1x2_P2.54mm_Drill1.1mm_1_1" 
-            (rectangle 
-                (start 2.54 -3.81) 
-                (end 5.08 1.27) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type background))) 
-            (rectangle 
-                (start 3.683 -2.794) 
-                (end 4.191 -2.286) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type outline))) 
-            (rectangle 
-                (start 3.683 -0.254) 
-                (end 4.191 0.254) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type outline))) 
-            (pin passive line 
-                (at 0 0 0) 
-                (length 2.54) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at 0 -2.54 0) 
-                (length 2.54) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
     (symbol "C_1u_0402" 
         (extends "C_template_name_0402") 
         (property "Reference" "C" 
@@ -1084,176 +955,6 @@
                         (font 
                             (size 1.27 1.27)))) 
                 (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))))) 
-    (symbol "PTD902-1015K-B104" 
-        (pin_numbers hide) 
-        (pin_names hide) 
-        (in_bom yes) 
-        (on_board yes) 
-        (property "Reference" "POT" 
-            (id 0) 
-            (at 20.32 -2.54 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom))) 
-        (property "Value" "PTD902-1015K-B104" 
-            (id 1) 
-            (at 20.32 -12.7 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom))) 
-        (property "Footprint" "ir-irradiance-probe-footprints:PTD902-1015K-B104" 
-            (id 2) 
-            (at 20.32 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/PTD90.pdf%20PTD902-1015K-B104" 
-            (id 3) 
-            (at 20.32 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "MPN" "PTD902-1015K-B104" 
-            (id 4) 
-            (at 20.32 -5.08 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "Manufacturer" "Bourns" 
-            (id 5) 
-            (at 20.32 -15.24 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "Author" "Antmicro" 
-            (id 6) 
-            (at 20.32 -17.78 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "License" "Apache-2.0" 
-            (id 7) 
-            (at 20.32 -20.32 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "ki_locked" "" 
-            (id 8) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)))) 
-        (property "ki_keywords" "potentiometer" 
-            (id 9) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (property "ki_description" "Potentiometer, 2-Gang" 
-            (id 10) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide)) 
-        (symbol "PTD902-1015K-B104_0_1" 
-            (polyline 
-                (pts 
-                    (xy 2.54 -1.905) 
-                    (xy 2.54 -1.016) 
-                    (xy 2.794 -1.524) 
-                    (xy 2.286 -1.524) 
-                    (xy 2.54 -1.016)) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type outline))) 
-            (rectangle 
-                (start 0.635 0.889) 
-                (end 4.445 -0.889) 
-                (stroke 
-                    (width 0.254) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type none)))) 
-        (symbol "PTD902-1015K-B104_1_1" 
-            (pin passive line 
-                (at 0 0 0) 
-                (length 0.635) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "1" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at 2.54 -2.54 90) 
-                (length 0.635) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "2" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at 5.08 0 180) 
-                (length 0.635) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "3" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))))) 
-        (symbol "PTD902-1015K-B104_2_1" 
-            (pin passive line 
-                (at 0 0 0) 
-                (length 0.635) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "4" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at 2.54 -2.54 90) 
-                (length 0.635) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "5" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27))))) 
-            (pin passive line 
-                (at 5.08 0 180) 
-                (length 0.635) 
-                (name "~" 
-                    (effects 
-                        (font 
-                            (size 1.27 1.27)))) 
-                (number "6" 
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
@@ -1946,6 +1647,131 @@
                         (font 
                             (size 1.27 1.27)))) 
                 (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "POT_100k_R0141-2-100k" 
+        (pin_numbers hide) 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "POT" 
+            (id 0) 
+            (at 20.32 -2.54 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Value" "POT_100k_R0141-2-100k" 
+            (id 1) 
+            (at 20.32 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Footprint" "ir-irradiance-probe-footprints:POT_R0141-2" 
+            (id 2) 
+            (at 20.32 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "https://www.tme.eu/Document/48eb4fb11c5e0c9b1cd467745dfbcb98/R0141-2.pdf" 
+            (id 3) 
+            (at 20.32 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "MPN" "R0141-2-100k" 
+            (id 4) 
+            (at 20.32 -12.7 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Manufacturer" "SR PASSIVES" 
+            (id 5) 
+            (at 20.32 -15.24 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 6) 
+            (at 20.32 -17.78 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 7) 
+            (at 20.32 -20.32 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (symbol "POT_100k_R0141-2-100k_0_1" 
+            (polyline 
+                (pts 
+                    (xy 2.54 -1.905) 
+                    (xy 2.54 -1.016) 
+                    (xy 2.794 -1.524) 
+                    (xy 2.286 -1.524) 
+                    (xy 2.54 -1.016)) 
+                (stroke 
+                    (width 0) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type outline))) 
+            (rectangle 
+                (start 0.635 0.889) 
+                (end 4.445 -0.889) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none)))) 
+        (symbol "POT_100k_R0141-2-100k_1_1" 
+            (pin passive line 
+                (at 0 0 0) 
+                (length 0.635) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 5.08 0 180) 
+                (length 0.635) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 2.54 -2.54 90) 
+                (length 0.635) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "3" 
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
@@ -3685,6 +3511,135 @@
                 (at 5.08 -5.08 90) 
                 (length 2.54) 
                 (name "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))))) 
+    (symbol "PinHeader_1x2_P2.54mm_Drill1.1mm_Horizontal" 
+        (in_bom yes) 
+        (on_board yes) 
+        (property "Reference" "J" 
+            (id 0) 
+            (at 20.32 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Value" "PinHeader_1x2_P2.54mm_Drill1.1mm_Horizontal" 
+            (id 1) 
+            (at 20.32 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Footprint" "ir-irradiance-probe-footprints:PinHeader_1x02_P2.54mm_Horizontal" 
+            (id 2) 
+            (at 20.32 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300211021.pdf" 
+            (id 3) 
+            (at 20.32 -12.7 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "MPN" "61300211021" 
+            (id 4) 
+            (at 20.32 -15.24 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Manufacturer" "Würth Elektronik" 
+            (id 5) 
+            (at 20.32 -17.78 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 6) 
+            (at 20.32 -20.32 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 7) 
+            (at 20.32 -22.86 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "ki_keywords" "2x1 goldpin header" 
+            (id 8) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (property "ki_description" "2x1 goldpin header right angle" 
+            (id 9) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide)) 
+        (symbol "PinHeader_1x2_P2.54mm_Drill1.1mm_Horizontal_1_1" 
+            (rectangle 
+                (start 2.54 -3.81) 
+                (end 5.08 1.27) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
+            (rectangle 
+                (start 3.683 -2.794) 
+                (end 4.191 -2.286) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type outline))) 
+            (rectangle 
+                (start 3.683 -0.254) 
+                (end 4.191 0.254) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type outline))) 
+            (pin passive line 
+                (at 0 0 0) 
+                (length 2.54) 
+                (name "~" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 0 -2.54 0) 
+                (length 2.54) 
+                (name "~" 
                     (effects 
                         (font 
                             (size 1.27 1.27)))) 
