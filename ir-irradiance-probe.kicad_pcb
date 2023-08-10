@@ -4718,7 +4718,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:C_0402_1005Metric" (layer "F.Cu")
+  (footprint "ir-irradiance-probe-footprints:C_0402_1005Metric" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 4f4b4a5c-dcab-4523-b4ab-cdacec8d3802)
     (at 74.28 100.81)
     (descr "Capacitor SMD 0402")
@@ -5443,7 +5443,7 @@
       (net 1 "GND") (pintype "passive") (tstamp ea87f0be-62f8-44d7-96f4-64f293dcb4f1))
     (pad "2" smd roundrect (at 0.484 0) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 12 "/5V_PWR_SUPPLY") (pintype "passive") (tstamp 6bf5ddc7-a0d0-4dbf-bfd8-b72ee553e97c))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -7160,7 +7160,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:C_0402_1005Metric" (layer "F.Cu")
+  (footprint "ir-irradiance-probe-footprints:C_0402_1005Metric" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 59671b5f-6ae0-4e68-9186-10d663732add)
     (at 79.22 77.38 180)
     (descr "Capacitor SMD 0402")
@@ -7884,7 +7884,7 @@
       (net 1 "GND") (pintype "passive") (tstamp c8a9f67e-f8ca-46e8-aad8-3264d15b196a))
     (pad "2" smd roundrect (at 0.484 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 13 "/3V3_JST") (pintype "passive") (tstamp c3d3bbf6-7f49-4023-8a07-1d31335e78d3))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -9823,7 +9823,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:L_0805_2012Metric" (layer "F.Cu")
+  (footprint "ir-irradiance-probe-footprints:L_0805_2012Metric" (layer "F.Cu")
     (tedit 5FD9C126) (tstamp 87e63530-f3a8-44c6-ac6d-0b2cb0e10dc8)
     (at 81.23 98.75)
     (descr "Inductor  SMD 0805")
@@ -10415,7 +10415,7 @@
       (net 3 "Net-(D1-Pad1)") (pintype "passive") (tstamp 701cf188-89e5-460a-a10a-ede3f33ad1bd))
     (pad "2" smd rect (at 1.05 0) (size 1.2 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "/5V_FILTERED") (pintype "passive") (tstamp 5e65cefe-621a-49a3-ac89-e222b3bf3ccc))
-    (model "${ANT3DMDL}/L_0805_2012Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/L_0805_2012Metric.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -11230,7 +11230,7 @@
     (pad "1" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 2.75) (layers *.Cu *.Mask) (tstamp bdbfb229-65b3-4b12-86df-86c037ddab76))
   )
 
-  (footprint "antmicro-footprints:C_0402_1005Metric" (layer "F.Cu")
+  (footprint "ir-irradiance-probe-footprints:C_0402_1005Metric" (layer "F.Cu")
     (tedit 616D63CF) (tstamp 8d938ad2-6384-4687-aece-845653f2047e)
     (at 82.28 82.59 90)
     (descr "Capacitor SMD 0402")
@@ -11954,7 +11954,7 @@
       (net 1 "GND") (pintype "passive") (tstamp a163e67f-9204-4631-8917-776253fa6b30))
     (pad "2" smd roundrect (at 0.484 0 90) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "Net-(U3-Pad3)") (pintype "passive") (tstamp ea04e961-582d-4b38-a549-51f7ca86f89e))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -11999,7 +11999,7 @@
     (pad "1" thru_hole circle (at 0 0) (size 6.2 6.2) (drill 2.75) (layers *.Cu *.Mask) (tstamp 2cb54896-0e40-44dc-9945-b8327a4a3ac2))
   )
 
-  (footprint "antmicro-footprints:R_0402_1005Metric" (layer "F.Cu")
+  (footprint "ir-irradiance-probe-footprints:R_0402_1005Metric" (layer "F.Cu")
     (tedit 5FD9C158) (tstamp 925ddf4c-c352-4091-b36e-14d09bf4b75d)
     (at 83.28 82.59 -90)
     (descr "Resistor SMD 0402")
@@ -12051,7 +12051,7 @@
       (net 6 "Net-(U3-Pad3)") (pintype "passive") (tstamp 599d888a-5c78-4674-9e49-03c9637cc299))
     (pad "2" smd roundrect (at 0.485 0 270) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 22 "/ADC_IR_SIG_IN") (pintype "passive") (tstamp 69212387-2502-4d39-a83a-9d6d3f001f1a))
-    (model "${ANT3DMDL}/R_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/R_0402_1005Metric.step"
       (offset (xyz 0 0 -0.01))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -13819,7 +13819,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:C_0402_1005Metric" (layer "F.Cu")
+  (footprint "ir-irradiance-probe-footprints:C_0402_1005Metric" (layer "F.Cu")
     (tedit 616D63CF) (tstamp b519676b-00b3-49d5-a6ec-6a925c5ef237)
     (at 78.79 97 180)
     (descr "Capacitor SMD 0402")
@@ -14543,7 +14543,7 @@
       (net 1 "GND") (pintype "passive") (tstamp b522e156-0663-427c-9ac2-867ad548f922))
     (pad "2" smd roundrect (at 0.484 0 180) (size 0.59 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 11 "/5V_USB") (pintype "passive") (tstamp 644d64f9-c62a-42ac-aa49-7172124704d9))
-    (model "${ANT3DMDL}/C_0402_1005Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0402_1005Metric.step"
       (offset (xyz 0 0 0.2))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -15504,7 +15504,7 @@
     )
   )
 
-  (footprint "antmicro-footprints:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "ir-irradiance-probe-footprints:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp dcf673ae-26a9-4fa3-8573-f492a7f987b0)
     (at 82.98 100.49 180)
     (descr "Capacitor SMD 0603")
@@ -16095,14 +16095,14 @@
       (net 1 "GND") (pintype "passive") (tstamp 17ddd260-6c96-4ffb-ad01-bfd12abc7f8c))
     (pad "2" smd roundrect (at 0.7 0 180) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 2 "/5V_FILTERED") (pintype "passive") (tstamp 1d9e95a7-c212-4ff0-9d2c-895c87faa3ae))
-    (model "${ANT3DMDL}/C_0603_1608Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0603_1608Metric.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
     )
   )
 
-  (footprint "antmicro-footprints:C_0603_1608Metric" (layer "F.Cu")
+  (footprint "ir-irradiance-probe-footprints:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5D5E94D2) (tstamp def6c2cf-7fa8-481d-8fe8-65892debc3d0)
     (at 77.87 99.36)
     (descr "Capacitor SMD 0603")
@@ -16693,7 +16693,7 @@
       (net 1 "GND") (pintype "passive") (tstamp 20ffc0cd-b9fd-4bc2-bf32-ddc10661dbba))
     (pad "2" smd roundrect (at 0.7 0) (size 0.6 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2)
       (net 3 "Net-(D1-Pad1)") (pintype "passive") (tstamp 0a8e40a8-a2b4-4cc3-991a-a2b61cecadf1))
-    (model "${ANT3DMDL}/C_0603_1608Metric.step"
+    (model "${KIPRJMOD}/lib/3d-models/C_0603_1608Metric.step"
       (offset (xyz 0 -0.45 0.42))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 0 0))
@@ -25717,7 +25717,7 @@
       ) (layer "B.SilkS") (width 0) (fill solid) (tstamp c922ed1a-3a13-404d-b26c-7f458ede47b9))
   )
 
-  (footprint "antmicro-footprints:Photodiode_SMD_4.2x5mm_TEMD" (layer "B.Cu")
+  (footprint "ir-irradiance-probe-footprints:Photodiode_SMD_4.2x5mm_TEMD" (layer "B.Cu")
     (tedit 64C12450) (tstamp d48bd00d-02f9-437d-b7c4-6e600c57c51f)
     (at 90 90 180)
     (property "Author" "Antmicro")
@@ -26343,7 +26343,7 @@
         ffbb516e-f319-433c-82fb-1a6f983fa47e
       )
     )
-    (model "${ANT3DMDL}/Photodiode_SMD_4.2x5mm_TEMD.step"
+    (model "${KIPRJMOD}/lib/3d-models/Photodiode_SMD_4.2x5mm_TEMD.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 90 180 -90))
