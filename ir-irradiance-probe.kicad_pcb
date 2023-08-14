@@ -1,12 +1,14 @@
 (kicad_pcb (version 20211014) (generator pcbnew)
 
   (general
-    (thickness 1.6)
+    (thickness 1.576)
   )
 
   (paper "A4")
   (layers
     (0 "F.Cu" signal)
+    (1 "In1.Cu" signal)
+    (2 "In2.Cu" signal)
     (31 "B.Cu" signal)
     (32 "B.Adhes" user "B.Adhesive")
     (33 "F.Adhes" user "F.Adhesive")
@@ -38,6 +40,23 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.02))
+      (layer "F.Cu" (type "copper") (thickness 0.018))
+      (layer "dielectric 1" (type "prepreg") (thickness 0.36) (material "IS400 PR2116") (epsilon_r 4.06) (loss_tangent 0.0189))
+      (layer "In1.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 2" (type "core") (thickness 0.71) (material "FR-4") (epsilon_r 4.35) (loss_tangent 0.02))
+      (layer "In2.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 3" (type "prepreg") (thickness 0.36) (material "IS400 PR2116") (epsilon_r 4.06) (loss_tangent 0.0189))
+      (layer "B.Cu" (type "copper") (thickness 0.018))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.02))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -2357,7 +2376,7 @@
     (pad "3" smd rect (at 0.52 0) (size 0.46 0.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp 3b26f289-7932-46fa-966e-794180f662b8))
     (model "${KIPRJMOD}/lib/3d-models/TPD2E009DRTR.step"
-      (offset (xyz -0 -0 0))
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -4204,7 +4223,7 @@
     (pad "3" smd rect (at 0.52 0) (size 0.46 0.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp 002d63c9-b21a-49bb-a4f8-2f4010541ed4))
     (model "${KIPRJMOD}/lib/3d-models/TPD2E009DRTR.step"
-      (offset (xyz -0 -0 0))
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -13343,7 +13362,7 @@
     (pad "3" smd rect (at 0.52 0 270) (size 0.46 0.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp 1a037868-deba-4439-87fc-b14abede936d))
     (model "${KIPRJMOD}/lib/3d-models/TPD2E009DRTR.step"
-      (offset (xyz -0 -0 0))
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -15647,7 +15666,7 @@
     (pad "3" smd rect (at 0.52 0 270) (size 0.46 0.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp c286b923-1a37-4bdf-a530-d727a2629fe5))
     (model "${KIPRJMOD}/lib/3d-models/TPD2E009DRTR.step"
-      (offset (xyz -0 -0 0))
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -15729,7 +15748,7 @@
     (pad "3" smd rect (at 0.52 0) (size 0.46 0.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp 299ddf10-efc7-438b-b54e-2328d38e5fce))
     (model "${KIPRJMOD}/lib/3d-models/TPD2E009DRTR.step"
-      (offset (xyz -0 -0 0))
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -15811,7 +15830,7 @@
     (pad "3" smd rect (at 0.52 0) (size 0.46 0.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "GND") (pinfunction "GND") (pintype "passive") (tstamp b01b937f-f9c4-4bc5-831f-47917689aecb))
     (model "${KIPRJMOD}/lib/3d-models/TPD2E009DRTR.step"
-      (offset (xyz -0 -0 0))
+      (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
@@ -26731,6 +26750,8 @@
   (gr_text "IR irradiance probe\nrev.1.0.0 08/2023" (at 82.1 87.8 90) (layer "B.Mask") (tstamp 5eeeef07-59e1-43cb-833f-a244a6473e05)
     (effects (font (size 0.7 0.7) (thickness 0.15)) (justify mirror))
   )
+
+  (segment (start 77.583 83.498) (end 77.6 83.515) (width 0.2) (layer "F.Cu") (net 14) (tstamp d641d86a-95a2-444f-9d82-ee2e533e2434))
 
   (group "" (id 4a432a2e-19b5-4648-a079-f9ebe9626ea7)
     (members
