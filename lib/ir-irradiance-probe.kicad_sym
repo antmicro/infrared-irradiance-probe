@@ -1019,53 +1019,77 @@
                         (font 
                             (size 1.27 1.27))))))) 
     (symbol "PESD5V0S2BQA" 
-        (pin_names 
-            (offset 1.016)) 
         (in_bom yes) 
         (on_board yes) 
         (property "Reference" "D" 
             (id 0) 
-            (at -7.62 -12.7 0) 
+            (at 27.94 -2.54 0) 
             (effects 
                 (font 
-                    (size 1.524 1.524)) 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
                 (justify left bottom))) 
         (property "Value" "PESD5V0S2BQA" 
             (id 1) 
-            (at -7.62 -15.24 90) 
+            (at 27.94 -10.16 0) 
             (effects 
                 (font 
-                    (size 1.524 1.524)) 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
                 (justify left bottom) hide)) 
         (property "Footprint" "ir-irradiance-probe-footprints:TPD2E009DRTR" 
             (id 2) 
-            (at 1.27 5.08 0) 
+            (at 27.94 -12.7 0) 
             (effects 
                 (font 
-                    (size 1.524 1.524)) hide)) 
-        (property "Datasheet" "" 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/NEXP/NEXP-S-A0003105620/NEXP-S-A0003107857-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0" 
             (id 3) 
-            (at 0 0 0) 
+            (at 27.94 -15.24 0) 
             (effects 
                 (font 
-                    (size 1.524 1.524)) hide)) 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
         (property "MPN" "PESD5V0S2BQA" 
             (id 4) 
-            (at -7.62 7.62 0) 
+            (at 27.94 -5.08 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27)))) 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
         (property "Manufacturer" "Nexperia" 
             (id 5) 
-            (at -7.62 10.16 0) 
+            (at 27.94 -7.62 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27)))) 
-        (symbol "PESD5V0S2BQA_0_1" 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Author" "Antmicro" 
+            (id 6) 
+            (at 27.94 -17.78 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 7) 
+            (at 27.94 -20.32 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (symbol "PESD5V0S2BQA_1_1" 
             (polyline 
                 (pts 
-                    (xy 7.874 -0.254) 
-                    (xy 7.874 -5.842)) 
+                    (xy 10.414 -0.254) 
+                    (xy 10.414 -5.842)) 
                 (stroke 
                     (width 0.254) 
                     (type default) 
@@ -1074,9 +1098,9 @@
                     (type none))) 
             (polyline 
                 (pts 
-                    (xy 7.112 -2.54) 
-                    (xy 8.636 -2.54) 
-                    (xy 8.636 -2.794)) 
+                    (xy 9.652 -2.54) 
+                    (xy 11.176 -2.54) 
+                    (xy 11.176 -2.794)) 
                 (stroke 
                     (width 0.254) 
                     (type default) 
@@ -1085,10 +1109,10 @@
                     (type none))) 
             (polyline 
                 (pts 
-                    (xy 8.89 -4.064) 
-                    (xy 7.874 -2.54) 
-                    (xy 6.858 -4.064) 
-                    (xy 8.89 -4.064)) 
+                    (xy 11.43 -4.064) 
+                    (xy 10.414 -2.54) 
+                    (xy 9.398 -4.064) 
+                    (xy 11.43 -4.064)) 
                 (stroke 
                     (width 0.254) 
                     (type default) 
@@ -1096,8 +1120,8 @@
                 (fill 
                     (type none))) 
             (rectangle 
-                (start 10.16 -7.62) 
-                (end 0 2.54) 
+                (start 12.7 -7.62) 
+                (end 2.54 2.54) 
                 (stroke 
                     (width 0.254) 
                     (type default) 
@@ -1105,38 +1129,38 @@
                 (fill 
                     (type background))) 
             (pin passive line 
-                (at -5.08 0 0) 
-                (length 5.08) 
+                (at 0 0 0) 
+                (length 2.54) 
                 (name "IO1" 
                     (effects 
                         (font 
-                            (size 1.778 1.778)))) 
+                            (size 1.27 1.27)))) 
                 (number "1" 
                     (effects 
                         (font 
-                            (size 1.778 1.778))))) 
+                            (size 1.27 1.27))))) 
             (pin passive line 
-                (at -5.08 -2.54 0) 
-                (length 5.08) 
+                (at 0 -2.54 0) 
+                (length 2.54) 
                 (name "IO2" 
                     (effects 
                         (font 
-                            (size 1.778 1.778)))) 
+                            (size 1.27 1.27)))) 
                 (number "2" 
                     (effects 
                         (font 
-                            (size 1.778 1.778))))) 
+                            (size 1.27 1.27))))) 
             (pin passive line 
-                (at -5.08 -5.08 0) 
-                (length 5.08) 
+                (at 0 -5.08 0) 
+                (length 2.54) 
                 (name "GND" 
                     (effects 
                         (font 
-                            (size 1.778 1.778)))) 
+                            (size 1.27 1.27)))) 
                 (number "3" 
                     (effects 
                         (font 
-                            (size 1.778 1.778))))))) 
+                            (size 1.27 1.27))))))) 
     (symbol "PCB_Mount_Hole_2.5_6.2" 
         (pin_names hide) 
         (in_bom no) 
@@ -1853,6 +1877,93 @@
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
+    (symbol "R_1k_0402" 
+        (extends "R_template_name_0402") 
+        (property "Reference" "R" 
+            (id 0) 
+            (at 20.32 -5.08 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Value" "R_1k_0402" 
+            (id 1) 
+            (at 20.32 -12.7 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Footprint" "ir-irradiance-probe-footprints:R_0402_1005Metric" 
+            (id 2) 
+            (at 20.32 -15.24 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
+            (id 3) 
+            (at 20.32 -17.78 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "MPN" "CR0402-FX-1001GLF" 
+            (id 4) 
+            (at 20.32 -20.32 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Manufacturer" "Bourns" 
+            (id 5) 
+            (at 20.32 -22.86 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 6) 
+            (at 20.32 -25.4 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 7) 
+            (at 20.32 -27.94 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Val" "1k" 
+            (id 8) 
+            (at 20.32 -7.62 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
+        (property "Tolerance" "1%" 
+            (id 9) 
+            (at 20.32 -10.16 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) 
+                (justify left bottom) hide)) 
+        (property "ki_description" "1k resistor in 0402 package with 1% tolerance" 
+            (id 10) 
+            (at 0 0 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27)) hide))) 
     (symbol "R_5k1_0402" 
         (extends "R_template_name_0402") 
         (property "Reference" "R" 
@@ -3837,91 +3948,152 @@
                         (thickness 0.15)) 
                     (justify left bottom))))) 
     (symbol "MSS3-V-T_R" 
-        (pin_names 
-            (offset 0)) 
+        (pin_names hide) 
         (in_bom yes) 
         (on_board yes) 
         (property "Reference" "SW" 
             (id 0) 
-            (at -3.81 2.286 0) 
+            (at 25.4 -5.08 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27)))) 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
         (property "Value" "MSS3-V-T_R" 
             (id 1) 
-            (at 0 -5.334 0) 
+            (at 25.4 -10.16 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27)))) 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
         (property "Footprint" "ir-irradiance-probe-footprints:Switch_Slide_MSS3" 
             (id 2) 
-            (at 5.08 5.08 0) 
+            (at 25.4 -12.7 0) 
             (effects 
                 (font 
-                    (size 1.27 1.27)) 
-                (justify left) hide)) 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
         (property "Datasheet" "https://pl.mouser.com/datasheet/2/910/605_MSS34-1571494.pdf" 
             (id 3) 
-            (at 5.08 7.62 0) 
+            (at 25.4 -15.24 0) 
             (effects 
                 (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
         (property "MPN" "MSS3-V-T/R" 
             (id 4) 
-            (at 5.08 12.7 0) 
+            (at 25.4 -7.62 0) 
             (effects 
                 (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom))) 
         (property "Manufacturer" "Diptronics" 
             (id 5) 
-            (at 5.08 15.748 0) 
+            (at 25.4 -17.78 0) 
             (effects 
                 (font 
-                    (size 1.524 1.524)) 
-                (justify left) hide)) 
-        (symbol "MSS3-V-T_R_0_1" 
-            (circle 
-                (center -2.286 0) 
-                (radius 0.3556) 
-                (stroke 
-                    (width 0) 
-                    (type default) 
-                    (color 0 0 0 0)) 
-                (fill 
-                    (type outline))) 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "Author" "Antmicro" 
+            (id 6) 
+            (at 25.4 -20.32 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (property "License" "Apache-2.0" 
+            (id 7) 
+            (at 25.4 -22.86 0) 
+            (effects 
+                (font 
+                    (size 1.27 1.27) 
+                    (thickness 0.15)) 
+                (justify left bottom) hide)) 
+        (symbol "MSS3-V-T_R_1_1" 
             (polyline 
                 (pts 
-                    (xy -2.032 0) 
-                    (xy 3.048 2.286)) 
+                    (xy 3.81 0) 
+                    (xy 2.54 0)) 
                 (stroke 
-                    (width 0) 
+                    (width 0.254) 
                     (type default) 
                     (color 0 0 0 0)) 
                 (fill 
                     (type none))) 
+            (polyline 
+                (pts 
+                    (xy 4.318 0) 
+                    (xy 8.89 -2.54)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 10.16 -2.54) 
+                    (xy 8.89 -2.54)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (polyline 
+                (pts 
+                    (xy 10.16 2.54) 
+                    (xy 8.89 2.54)) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type none))) 
+            (rectangle 
+                (start 2.54 3.81) 
+                (end 10.16 -3.81) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type background))) 
             (circle 
-                (center 2.286 -2.54) 
+                (center 4.064 0) 
                 (radius 0.3556) 
                 (stroke 
-                    (width 0) 
+                    (width 0.254) 
                     (type default) 
                     (color 0 0 0 0)) 
                 (fill 
                     (type outline))) 
             (circle 
-                (center 2.54 2.54) 
+                (center 8.636 -2.54) 
                 (radius 0.3556) 
                 (stroke 
-                    (width 0) 
+                    (width 0.254) 
                     (type default) 
                     (color 0 0 0 0)) 
                 (fill 
-                    (type outline)))) 
-        (symbol "MSS3-V-T_R_1_1" 
+                    (type outline))) 
+            (circle 
+                (center 8.89 2.54) 
+                (radius 0.3556) 
+                (stroke 
+                    (width 0.254) 
+                    (type default) 
+                    (color 0 0 0 0)) 
+                (fill 
+                    (type outline))) 
             (pin passive line 
-                (at 5.08 2.54 180) 
+                (at 12.7 2.54 180) 
                 (length 2.54) 
                 (name "~" 
                     (effects 
@@ -3932,7 +4104,7 @@
                         (font 
                             (size 1.27 1.27))))) 
             (pin passive line 
-                (at -5.08 0 0) 
+                (at 0 0 0) 
                 (length 2.54) 
                 (name "~" 
                     (effects 
@@ -3943,13 +4115,57 @@
                         (font 
                             (size 1.27 1.27))))) 
             (pin passive line 
-                (at 5.08 -2.54 180) 
+                (at 12.7 -2.54 180) 
                 (length 2.54) 
                 (name "~" 
                     (effects 
                         (font 
                             (size 1.27 1.27)))) 
                 (number "3" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 0 -2.54 0) 
+                (length 2.54) hide 
+                (name "SH" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "S1" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 0 -2.54 0) 
+                (length 2.54) hide 
+                (name "SH" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "S2" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 0 -2.54 0) 
+                (length 2.54) hide 
+                (name "SH" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "S3" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27))))) 
+            (pin passive line 
+                (at 0 -2.54 0) 
+                (length 2.54) 
+                (name "SH" 
+                    (effects 
+                        (font 
+                            (size 1.27 1.27)))) 
+                (number "S4" 
                     (effects 
                         (font 
                             (size 1.27 1.27))))))) 
@@ -4574,93 +4790,6 @@
                 (justify left bottom) hide)) 
         (property "ki_description" " " 
             (id 11) 
-            (at 0 0 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) hide))) 
-    (symbol "R_1k_0402" 
-        (extends "R_template_name_0402") 
-        (property "Reference" "R" 
-            (id 0) 
-            (at 20.32 -5.08 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
-        (property "Value" "R_1k_0402" 
-            (id 1) 
-            (at 20.32 -12.7 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Footprint" "ir-irradiance-probe-footprints:R_0402_1005Metric" 
-            (id 2) 
-            (at 20.32 -15.24 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/cr.pdf" 
-            (id 3) 
-            (at 20.32 -17.78 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "MPN" "CR0402-FX-1001GLF" 
-            (id 4) 
-            (at 20.32 -20.32 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Manufacturer" "Bourns" 
-            (id 5) 
-            (at 20.32 -22.86 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "License" "Apache-2.0" 
-            (id 6) 
-            (at 20.32 -25.4 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Author" "Antmicro" 
-            (id 7) 
-            (at 20.32 -27.94 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom) hide)) 
-        (property "Val" "1k" 
-            (id 8) 
-            (at 20.32 -7.62 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27) 
-                    (thickness 0.15)) 
-                (justify left bottom))) 
-        (property "Tolerance" "1%" 
-            (id 9) 
-            (at 20.32 -10.16 0) 
-            (effects 
-                (font 
-                    (size 1.27 1.27)) 
-                (justify left bottom) hide)) 
-        (property "ki_description" "1k resistor in 0402 package with 1% tolerance" 
-            (id 10) 
             (at 0 0 0) 
             (effects 
                 (font 
